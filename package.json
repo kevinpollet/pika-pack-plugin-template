@@ -1,0 +1,25 @@
+{
+  "name": "pika-pack-plugin-template",
+  "version": "1.0.0",
+  "description": "## License",
+  "author": "kevinpollet <pollet.kevin@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/kevinpollet/pika-pack-plugin-template#readme",
+  "bugs": "https://github.com/kevinpollet/pika-pack-plugin-template/issues",
+  "repository": "github:kevinpollet/pika-pack-plugin-template",
+  "keywords": [
+    "pika",
+    "plugin",
+    "template"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write **/*.{ts,md,yml}"
+  },
+  "devDependencies": {
+    "prettier": "1.18.2"
+  },
+  "prettier": {
+    "trailingComma": "es5"
+  }
+}
