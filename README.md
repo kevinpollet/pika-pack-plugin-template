@@ -5,6 +5,12 @@
 
 Repository template to create a [@pika/pack](https://github.com/pikapkg/pack) build plugin.
 
+## Features
+
+- Strict TypeScript type checking
+- Reinvented build pipeline with [@pika/pack](https://github.com/pikapkg/pack)
+- Code formatting with [Prettier](https://prettier.io/)
+
 ## License
 
 [MIT](./LICENSE.md) © kevinpollet
