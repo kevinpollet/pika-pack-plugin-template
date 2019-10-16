@@ -1,5 +1,6 @@
 # pika-pack-plugin-template
 
+[![Use this template](https://img.shields.io/badge/⚡%20🐹%20Use%20this%20template-blue?style=flat)](https://github.com/kevinpollet/pika-pack-plugin-template/generate)
 [![Build Status](https://github.com/kevinpollet/pika-pack-plugin-template/workflows/build/badge.svg)](https://github.com/kevinpollet/pika-pack-plugin-template/actions)
 [![License](https://img.shields.io/github/license/kevinpollet/pika-pack-plugin-template.svg?color=blue)](./LICENSE.md)
 
