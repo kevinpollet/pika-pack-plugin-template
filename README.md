@@ -12,6 +12,16 @@ Repository template to create a [@pika/pack](https://github.com/pikapkg/pack) bu
 - Reinvented build pipeline with [@pika/pack](https://github.com/pikapkg/pack)
 - Code formatting with [Prettier](https://prettier.io/)
 
+## Contributing
+
+Contributions are welcome!
+
+Want to file a bug, request a feature or contribute some code?
+
+- Check out the [Code of Conduct](./CODE_OF_CONDUCT.md)
+- Check that there is no existing [issue](https://github.com/kevinpollet/pika-pack-plugin-template) corresponding to your bug or feature
+- Before implementing a new feature, discuss your changes in an issue first!
+
 ## License
 
 [MIT](./LICENSE.md) © kevinpollet
