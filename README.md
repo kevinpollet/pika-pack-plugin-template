@@ -8,6 +8,7 @@ Repository template to create a [@pika/pack](https://github.com/pikapkg/pack) bu
 ## Features
 
 - Strict TypeScript type checking
+- Testing with [Jest](https://jestjs.io/)
 - Reinvented build pipeline with [@pika/pack](https://github.com/pikapkg/pack)
 - Code formatting with [Prettier](https://prettier.io/)
 
