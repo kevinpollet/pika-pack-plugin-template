@@ -16,7 +16,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rm -rf pkg && pika build",
-    "format": "prettier --write '**/*.{ts,md,yml}' '!pkg/**'"
+    "format": "prettier --write '**/*.{ts,md,yml}' '!pkg/**'",
+    "format:check": "prettier --write '**/*.{ts,md,yml}' '!pkg/**'"
   },
   "devDependencies": {
     "@pika/pack": "^0.5.0",
