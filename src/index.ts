@@ -1,25 +1,26 @@
 import { BuilderOptions } from "@pika/types";
 
-export async function beforeBuild({ reporter }: BuilderOptions): Promise<void> {
+export function beforeBuild({ reporter }: BuilderOptions): void {
   reporter.info("beforeBuild");
 }
 
-export async function beforeJob({ reporter }: BuilderOptions): Promise<void> {
+export function beforeJob({ reporter }: BuilderOptions): void {
   reporter.info("beforeJob");
 }
 
-export async function build({ reporter }: BuilderOptions): Promise<void> {
+export function build({ reporter }: BuilderOptions): void {
   reporter.info("build");
 }
 
-export async function afterJob({ reporter }: BuilderOptions): Promise<void> {
+export function afterJob({ reporter }: BuilderOptions): void {
   reporter.info("afterJob");
 }
 
-export async function afterBuild({ reporter }: BuilderOptions) {
+export function afterBuild({ reporter }: BuilderOptions): void {
   reporter.info("afterBuild");
 }
 
-export async function manifest(newManifest: any): Promise<any> {
+export function manifest(newManifest: any): Promise<any> {
+  // eslint-disable-line @typescript-eslint/no-explicit-any
   return newManifest;
 }

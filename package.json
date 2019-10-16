@@ -17,6 +17,7 @@
     "build": "rm -rf pkg && pika build",
     "format": "prettier --write '**/*.{ts,md,yml}' '!pkg/**'",
     "format:check": "prettier --check '**/*.{ts,md,yml}' '!pkg/**'",
+    "lint": "eslint '{src,test}/**'",
     "test": "jest --preset ts-jest"
   },
   "devDependencies": {
@@ -25,10 +26,31 @@
     "@pika/plugin-ts-standard-pkg": "^0.6.1",
     "@pika/types": "^0.6.1",
     "@types/jest": "^24.0.19",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.4.0",
     "jest": "^24.9.0",
     "prettier": "1.18.2",
     "ts-jest": "^24.1.0",
     "typescript": "~3.6.4"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/eslint-recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:@typescript-eslint/recommended-requiring-type-checking",
+      "prettier",
+      "prettier/@typescript-eslint"
+    ]
   },
   "@pika/pack": {
     "pipeline": [

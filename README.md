@@ -12,6 +12,7 @@ Repository template to create a [@pika/pack](https://github.com/pikapkg/pack) bu
 - Testing with [Jest](https://jestjs.io/)
 - Reinvented build pipeline with [@pika/pack](https://github.com/pikapkg/pack)
 - Code formatting with [Prettier](https://prettier.io/)
+- Code linting with [ESLint](https://eslint.org/)
 
 ## Contributing
 
