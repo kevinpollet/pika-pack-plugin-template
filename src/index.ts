@@ -1,24 +1,25 @@
 import { BuilderOptions } from "@pika/types";
 
-export const beforeBuild = async (opts: BuilderOptions): Promise<void> =>
-  opts.reporter.info("beforeBuild");
+export async function beforeBuild({ reporter }: BuilderOptions): Promise<void> {
+  reporter.info("beforeBuild");
+}
 
-export const afterBuild = async (opts: BuilderOptions): Promise<void> =>
-  opts.reporter.info("beforeBuild");
+export async function beforeJob({ reporter }: BuilderOptions): Promise<void> {
+  reporter.info("beforeJob");
+}
 
-export const beforeJob = async (opts: BuilderOptions): Promise<void> =>
-  opts.reporter.info("beforeJob");
+export async function build({ reporter }: BuilderOptions): Promise<void> {
+  reporter.info("build");
+}
 
-export const afterJob = async (opts: BuilderOptions): Promise<void> =>
-  opts.reporter.info("beforeJob");
+export async function afterJob({ reporter }: BuilderOptions): Promise<void> {
+  reporter.info("afterJob");
+}
 
-export const build = async (opts: BuilderOptions): Promise<void> =>
-  opts.reporter.info("Build");
+export async function afterBuild({ reporter }: BuilderOptions) {
+  reporter.info("afterBuild");
+}
 
-export const manifest = async (
-  manifest: any,
-  opts: BuilderOptions
-): Promise<any> => {
-  opts.reporter.info(`Manifest: ${manifest}`);
-  return manifest;
-};
+export async function manifest(newManifest: any): Promise<any> {
+  return newManifest;
+}

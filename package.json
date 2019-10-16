@@ -1,8 +1,8 @@
 {
   "name": "pika-pack-plugin-template",
+  "description": "Template project to create a @pika/pack build plugin",
   "version": "1.0.0",
   "private": true,
-  "description": "Template project to create a @pika/pack build plugin",
   "author": "kevinpollet <pollet.kevin@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/kevinpollet/pika-pack-plugin-template#readme",
