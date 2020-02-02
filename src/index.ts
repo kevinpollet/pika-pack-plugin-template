@@ -20,7 +20,7 @@ export function afterBuild({ reporter }: BuilderOptions): void {
   reporter.info("afterBuild");
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function manifest(newManifest: any): Promise<any> {
-  // eslint-disable-line @typescript-eslint/no-explicit-any
   return newManifest;
 }
